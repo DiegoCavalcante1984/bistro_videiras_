@@ -1,0 +1,105 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+body{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  height:100vh;
+  width:100%;
+  
+}
+.title{
+  margin:-40px 0px 50px 0px;
+}
+.container{
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  border-radius:4px;
+  width:80%;
+  height:83vh;
+  box-shadow:1px 1px 6px #000;
+
+  
+}
+.form-image{
+  display: flex;
+  align-items: center;
+  justify-content:left;
+  width:50%;
+  
+}
+.form-image img{
+  width:25rem;
+
+}
+.form{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  
+  
+}
+.form-input{
+  width:180px;
+  margin:20px;
+}
+input::placeholder{
+  color:rgb(187, 186, 186);
+}
+.form-input input{
+  width:200px;
+  padding:3px;
+  border-radius:4px;
+  border:none;
+  box-shadow:1px 1px 2px #000;
+}
+
+.form-input-event{
+  width:280px;
+  margin:20px;
+}
+
+.form-input-event input{
+  padding:3px;
+  border-radius:4px;
+  border:none;
+  box-shadow:1px 1px 2px #000;
+  text-align: center;
+  width:300px;
+  
+}
+.text{
+  width:300px;
+  text-align: center;
+}
+
+.text textarea{
+  width:300px;
+  padding:5px;
+  margin-top:20px;
+  box-shadow:2px 2px 3px #000;
+  border-radius:4px;
+  border:1px solid rgb(187, 186, 186);;
+}
+.btn button{
+  background-color:rgb(57, 57, 57);
+  width:300px;
+  margin-top:10px;
+  padding:6px;
+  border-radius:4px;
+  cursor: pointer;
+ 
+}
+.btn button:hover{
+  background-color:rgb(78, 77, 77) ;
+}
+.btn button a{
+  color:#FFF;
+  text-decoration:none;
+  font-weight:bold;
+}
