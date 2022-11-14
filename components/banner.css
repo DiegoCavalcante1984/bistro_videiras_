@@ -1,3 +1,4 @@
+
 .banner{
   width:100%;
   background-color: #FFF;
@@ -14,8 +15,12 @@
   height:400px;
   background-image:url("../assets/imagens/bistro2.jpg");
   background-size:100%;
+  background-repeat: no-repeat;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+.contact h2{
+  font-size: 22px;
 }

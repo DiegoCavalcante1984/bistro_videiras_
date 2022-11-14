@@ -8,6 +8,12 @@
   align-items: center;
   
 }
+.header i{
+  color:#FFF;
+  padding-left:20px;
+  font-size:22px;
+  display:none;
+}
 .header img{
   
   width:80px;
